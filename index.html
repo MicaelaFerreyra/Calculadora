@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/calculadora.avif"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div>
+      <h1 class="titulos">Calculadora de:</h1>
+      <a
+        href="https://www.linkedin.com/in/micaela-ferreyra-5500a7231/"
+        target="_blank"
+      >
+        <h2 class="titulos">Micaela</h2></a
+      >
+
+      <div class="divCalculadora">
+        <input type="text" readonly id="pantallita" placeholder="Calcular..." />
+        <br />
+
+        <input type="button" value="1" onclick="agregar('1')" class="inputs" />
+        <input type="button" value="2" onclick="agregar('2')" class="inputs" />
+        <input type="button" value="3" onclick="agregar('3')" class="inputs" />
+        <input type="button" value="+" onclick="agregar('+')" class="inputs" />
+        <br />
+        <input type="button" value="4" onclick="agregar('4')" class="inputs" />
+        <input type="button" value="5" onclick="agregar('5')" class="inputs" />
+        <input type="button" value="6" onclick="agregar('6')" class="inputs" />
+        <input type="button" value="-" onclick="agregar('-')" class="inputs" />
+        <br />
+        <input type="button" value="7" onclick="agregar('7')" class="inputs" />
+        <input type="button" value="8" onclick="agregar('8')" class="inputs" />
+        <input type="button" value="9" onclick="agregar('9')" class="inputs" />
+        <input type="button" value="*" onclick="agregar('*')" class="inputs" />
+        <br />
+        <input type="button" value="0" onclick="agregar('0')" class="inputs" />
+        <input type="button" value="." onclick="agregar('.')" class="inputs" />
+        <input type="button" value="/" onclick="agregar('/')" class="inputs" />
+        <input type="button" value="=" onclick="calcular()" class="inputs" />
+        <br />
+        <input type="button" value="Delete" onclick="borrar()" class="delete" />
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+html{
+    background-image: url(https://img.freepik.com/fotos-premium/elegante-fondo-pantalla-abstracto-rosa-pastel-fondo-rosa-pastel_692702-13800.jpg);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;}
+
+body{
+display: flex;
+justify-content: center;
+}
+
+.titulos{
+    text-align: center;
+    color: rgb(65, 63, 61);
+    text-decoration:overline;
+    }
+
+.titulos:hover{
+    color: rgb(148, 146, 144);
+    text-decoration: wavy;
+   }
+
+
+a{
+text-decoration: none;}
+
+
+.inputs{
+margin: 3px;
+text-align: center;
+justify-content: center;
+width: 45px;
+height: 35px;
+color: black;
+border-radius: none;
+}
+
+.inputs:hover{
+background-color: rgb(112, 109, 109);}
+
+.divCalculadora{
+    padding-bottom: 16px;
+    padding-right: 23px;
+    padding-left: 23px;
+border: black 2px;
+border-radius: 10px;
+background-color: rgb(65, 63, 61);
+
+}
+
+#pantallita{
+margin: 20px 0 20px 0;
+width: 94%;
+height: 30px;}
+
+.delete{
+    margin-top: 5px;
+width: 99%;
+height: 30px;
+color: black;}
+
+.delete:hover{
+    background-color: rgb(112, 109, 109);
+}
